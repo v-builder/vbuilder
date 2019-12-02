@@ -15,7 +15,7 @@
 <div class="row">
     <div class="col-12 col-md-9">
 
-        <p class="ft-item mt-0">One goal: build and create solutions to technical & not-technical society problems.</p>
+        <p class="ft-item mt-0">One goal develop WEB Applications / API's saving time and with consistency. .</p>
 
     </div>
 </div>
