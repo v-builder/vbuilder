@@ -1,0 +1,13 @@
+@media (min-width: 768px) {
+
+    #team .team-mask{
+        width: 75%;
+        visibility: hidden;
+    }
+
+    #team .team-item:hover .team-mask{
+        visibility: visible;
+        transition-duration: 400ms;
+    }
+
+}

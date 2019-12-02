@@ -1,0 +1,14 @@
+RewriteEngine on
+
+RewriteBase /vworld/vbd-admin/
+RewriteRule ^login(.*)$ login.php?$1 [QSA]
+RewriteRule ^account$ account.php [QSA]
+RewriteRule ^account-type$ account-type.php?$1 [QSA]
+RewriteRule ^account-update$ account-update.php?$1 [QSA]
+RewriteRule ^user$ user.php?$1 [QSA]
+RewriteRule ^user-level$ user-level.php?$1 [QSA]
+RewriteRule ^ns-email$ ns-email.php?$1 [QSA]
+RewriteRule ^ns-mail$ ns-mail.php?$1 [QSA]
+RewriteRule ^newsletter$ newsletter.php?$1 [QSA]
+#RewriteRule ^account(.*)$ account.php$1 [QSA]
+#RewriteRule ^sycho$ /vworld/sycho.php [QSA]

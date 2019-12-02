@@ -1,0 +1,342 @@
+:root{
+    --color-heading:  #1B87CF;
+    --color-blue:  #1B87CF;
+    /*--color-content: #292929;*/
+    --color-content: #000000;
+    /*--color-service-heading:  #313131;*/
+    --color-service-heading:  #000000;
+    --color-service-content: #313131;
+    --color-service-exerpt: #5f5f5f;
+}
+body{
+    /*background-color: #fbfbfb;*/
+}
+
+
+@font-face {
+    font-family: 'PN-Regular';
+    src: url("../font-face/proximanova/ProximaNovaRegular.ttf");
+}
+@font-face {
+    font-family: 'PN-Reg';
+    src: url("../font-face/proximanova/ProximaNovaReg.ttf");
+}
+@font-face {
+    font-family: 'PN-Bold';
+    src: url("../font-face/proximanova/ProximaNovaBold.ttf");
+}
+@font-face {
+    font-family: 'PN-Light';
+    src: url("../font-face/proximanova/ProximaNovalight.otf");
+}
+@font-face {
+    font-family: 'PN-SemiBold';
+    src: url("../font-face/proximanova/ProximaNovaSemibold.ttf");
+}
+@font-face {
+    font-family: 'PN-Thin';
+    src: url("../font-face/proximanova/ProximaNovaThin.ttf");
+}
+@font-face {
+    font-family: 'PN-Black';
+    src: url("../font-face/proximanova/ProximaNovaBlack.ttf");
+}
+
+* {
+    font-family: 'PN-Light';
+}
+
+.se-pre-con {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background-color: #fbfbfb;
+}
+
+#app-navegation-bar-w .navbar-brand img{
+    height: 30px;
+
+    width: auto;
+}
+
+#app-navegation-bar-w{
+    background-color: #ffffff;
+}
+
+.img-shape{
+  visibility: hidden!important;
+}
+
+
+/*/////////////////////////////////////////////////////////////*/
+
+
+#app-navegation-bar-w .nav-link{
+
+    font-size: 1rem;
+    font-family: 'PN-Regular';
+    color: #2e2e2e;
+    border-bottom: 2px solid transparent;
+    border-top: 2px solid transparent;
+
+}
+#app-navegation-bar-w .nav-item.active .nav-link{
+
+    font-family: 'PN-Regular';
+    color: #000000;
+    border-bottom: 2px solid #403f3f;
+    background-color: transparent;
+
+}
+#app-navegation-bar-w .nav-item.active .nav-link{
+
+    font-family: 'PN-Regular';
+    color: #000000;
+
+}
+#app-navegation-bar-w  .dropdown-item {
+
+    font-size: .9rem;
+    font-family: 'PN-Light';
+
+}
+
+
+
+#carousel-intro{
+    width: 100%;
+}
+#carousel-intro .shape-img{
+    width: 45%;
+    display: block;
+    visibility: hidden;
+}
+#carousel-intro .carousel-item{
+    background-size: cover!important;
+    background-position: center center!important;
+    background-repeat: no-repeat;
+}
+
+#carousel-intro .c-controller svg{
+    width: 40px;
+    height: auto;
+}
+
+.bg-right{
+    background-position: center right!important;
+}
+
+
+
+.section{
+    margin-top: 20px;
+    padding-top: 50px;
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.section-heading{
+    text-align: center;
+    color: rgba(5, 5, 5, 1);
+    font-size: 1.5rem;
+    font-family: 'PN-Regular';
+    margin-bottom: 25px;
+
+}
+
+.section-heading-2{
+    text-align: center;
+    color: rgba(5, 5, 5, .85);
+    font-size: .9rem;
+    font-family: 'PN-Light';
+    margin-bottom: 25px;
+
+}
+.heading-hr{
+    width: 40px;
+    height: .7px;
+    background-color: #cccccc;
+    border: 0;
+    margin: 0 auto;
+}
+.heading-hr-w{
+
+    padding-bottom: 15px;
+}
+
+.section-desc{
+    text-align: center;
+    color: rgba(16, 16, 16, 0.9);
+    font-size: 1rem;
+    font-family: 'PN-Light';
+
+}
+.text-left{
+    text-align: left;
+}
+
+.section .section-w{
+    /*background-color: #DFBD37;*/
+    /*background-color: #DFBD37;*/
+
+    background-size: cover!important;
+    background-position: center center!important;
+    background-image: url("../../app_lib/img/basic/cover-y.jpg");
+    padding: 30px;
+}
+
+#services-section{
+    /*background-color: #DFBD37;*/
+    /*background-color: #DFBD37;*/
+
+    background-size: cover!important;
+    background-position: center left!important;
+    background-image: url("../../app_lib/img/basic/cover-y.jpg");
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+#services-section .section-heading{
+    /*color: #FFFFFF;*/
+}
+
+#about{
+    padding-bottom: 15px;
+}
+#about .section-desc, #about .section-heading{
+    text-align: left;
+}
+#presentation .uk-card-media-left{
+    box-shadow: 0 5px 15px rgba(0,0,0,.08);
+}
+#presentation .uk-card-title{
+    /*text-align: center;*/
+}
+#presentation .uk-card-desc{
+    /*text-align: center;*/
+}
+
+#services-section .section-w .section-heading{
+    color: #FFFFFF;
+}
+.section .section-w .section-heading{
+    /*color: #FFFFFF;*/
+}
+.section .section-w .section-desc{
+    /*color: #ffffff;*/
+}
+
+
+#services-section.styled .section-heading{
+    text-align: left;
+    /*font-family: 'PN-Regular';*/
+}
+#services-section.styled .section-desc{
+    text-align: justify;
+    color: #252525;
+    font-size: 1rem;
+    font-family: 'PN-Light';
+}
+#services-section.styled .section-desc:first-letter{
+
+    font-size: 1.2rem;
+    font-family: 'PN-Reg';
+}
+
+
+.sytled-card .uk-card-w {
+    padding-bottom: 7px;
+}
+
+.sytled-card .uk-card {
+    margin-top: 10px;
+    /*background-size: cover!important;*/
+    /*background-position: center center!important;*/
+    /*background-image: url("../../app_lib/img/basic/cover-y.jpg");*/
+    /*padding: 30px;*/
+}
+
+.sytled-card .uk-card-title{
+    text-align: left;
+    color: rgba(5, 5, 5, 1);
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+    font-family: 'PN-Regular';
+    margin-bottom: 15px;
+
+}
+
+.sytled-card .uk-card-desc{
+
+    color: rgba(16, 16, 16, 0.9);
+    font-size: .95rem;
+    list-height: 1.3rem;
+    font-family: 'PN-Light';
+
+}
+
+.sytled-card .uk-card-badge{
+    /*padding-top: 2px;*/
+    font-family: 'PN-Light';
+
+}
+
+.sytled-card .uk-button{
+    /*color: #000000;*/
+    /*padding-top: 2px;*/
+    text-transform: uppercase;
+    font-family: 'PN-Light';
+
+}
+
+
+#footer {
+    padding-top: 80px;
+}
+
+#footer .ft-hr{
+    border-top: .5px solid #cccccc;
+    padding-top: 30px;
+}
+
+
+#footer .ft-header{
+  color: #030303;
+    font-size: 1.1rem;
+    font-family: 'PN-Regular';
+    line-height: 1.5rem;
+    margin-top: 7px;
+    margin-bottom: 5px;
+}
+
+#footer .ft-item{
+  color: #000000;
+    font-family: 'PN-Light';
+    font-size: .93rem;
+    line-height: 1.3rem;
+    margin-top: 15px;
+}
+
+.ft-newsletter .ft-item{
+    margin-bottom: 15px;
+}
+#footer .footer-copyright{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-family: 'PN-Light';
+    font-size: .9rem;
+    line-height: 1.3rem;
+}
+#footer .footer-copyright a{
+    font-family: 'PN-Regular';
+    color: #1B87CF;
+}
+
+#product-heading .img-shape{
+    width: 100%;
+}

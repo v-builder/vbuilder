@@ -1,0 +1,24 @@
+
+
+.sidebar {
+    min-height: calc(100vh - 63px);
+    background: -webkit-gradient(linear, left bottom, left top, from(#5768f3), to(#1c45ef));
+    background: linear-gradient(to top, #5768f3, #3459f1);
+}
+
+.tab-pane.fade{
+    display: none;
+}
+.tab-pane.active{
+    display: block;
+}
+
+.navbar-brand.brand-logo img{
+    height: 30px!important;
+    width: auto;
+    margin: 0 auto;
+}
+
+.navbar.default-layout .navbar-brand-wrapper {
+    background: #eaeaea;
+}
